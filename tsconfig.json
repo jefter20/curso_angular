@@ -1,6 +1,9 @@
 {
     "compilerOptions": {
         "outDir": "dist",
-        "noEmitOnError":true
+        "noEmitOnError": false,
+        "typeRoots": [
+            "node_modules/@types"
+        ]
     }
 }
